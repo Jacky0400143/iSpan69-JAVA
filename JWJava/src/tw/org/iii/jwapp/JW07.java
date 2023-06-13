@@ -10,21 +10,17 @@ public class JW07 {
 		
 		if (score >= 90) {
 			System.out.println("A");
-		}else {
-			if (score >= 80) {
+		}else if (score >= 80) {
 				System.out.println("B");
-			}else {
-				if (score >= 70) {
-					System.out.println("C");
-				}else {
-					if (score >= 60) {
-						System.out.println("D");
-					}else {
-							System.out.println("E");
-					}
-				}
-			}
+		}else if (score >= 70) {
+				System.out.println("C");
+		}else if (score >= 60) {
+				System.out.println("D");
+		}else {
+				System.out.println("E");
 		}
+		
+		
 		System.out.println("Game Over");
 	}
 }
@@ -39,3 +35,4 @@ public class JW07 {
 //		double temp = Math.random();
 //		int score = (int)(temp*49) + 1; // 產生0~48，"+1" 為位移，可產生 1~49
 //		System.out.println(score);
+
