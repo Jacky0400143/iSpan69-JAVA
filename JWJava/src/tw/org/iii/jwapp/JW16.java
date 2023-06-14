@@ -10,7 +10,7 @@ public class JW16 {
 			point = (int)(Math.random()*6)+1;	//1~6
 			
 			if (point >=1 && point <=6) {
-				p[point]++;
+				p[point>=7 ? point-3 : point]++;
 			}else {
 				p[0]++;
 			}
