@@ -5,7 +5,7 @@ public class JW11 {
 	public static void main(String[] args) {
 		int a = 10;
 //		int a = 100, b = 10;	//常數不行處理
-		final int b = 10;	//需要透過final int 進行定義
+		final int b = 10;	//需要透過final int 
 		switch (a) {
 			case 1:
 				System.out.println("A");
