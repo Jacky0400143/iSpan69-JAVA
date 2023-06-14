@@ -10,11 +10,11 @@ public class JW15 {
 			point = (int)(Math.random()*6)+1;	//1~6
 			switch (point) {
 			case 1: p1++; break;
-			case 2: p1++; break;
-			case 3: p1++; break;
-			case 4: p1++; break;
-			case 5: p1++; break;
-			case 6: p1++; break;
+			case 2: p2++; break;
+			case 3: p3++; break;
+			case 4: p4++; break;
+			case 5: p5++; break;
+			case 6: p6++; break;
 			default: p0++;
 			}
 		}
