@@ -8,16 +8,12 @@ public class JW13 {
 			System.out.println(i++);
 		}
 		System.out.println("Over:" + i);
-	}
-	private static Object printLine() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+		
 	}
 	static void printJacky() {
 		System.out.println("JackyV3");
 	}
-	static void printJacky() {
+	static void printLine() {
 		System.out.println("------");
 	}
 
