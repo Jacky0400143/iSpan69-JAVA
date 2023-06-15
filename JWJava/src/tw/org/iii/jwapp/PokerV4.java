@@ -1,5 +1,7 @@
 package tw.org.iii.jwapp;
 
+import java.util.Arrays;
+
 public class PokerV4 {
 
 	public static void main(String[] args) {
@@ -27,6 +29,7 @@ public class PokerV4 {
 				"8","9","10","J","Q","K"};	
 		
 		for (int[] player : players) {
+			Arrays.sort(player);
 			for (int card : player) {
 				System.out.printf("%s%s ",colors[card/13], values[card%13]);
 				//System.out.print(card + " ");
