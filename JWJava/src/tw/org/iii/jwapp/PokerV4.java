@@ -1,9 +1,9 @@
 package tw.org.iii.jwapp;
 
-public class PokerV3 {
+public class PokerV4 {
 
 	public static void main(String[] args) {
-		int num = 10;
+		int num = 52;
 		int[] poker = new int[num];
 		for (int i=0; i<poker.length; i++) poker[i] = i;
 		
@@ -16,7 +16,19 @@ public class PokerV3 {
 		}
 		
 		for(int v : poker) System.out.println(v);
+		System.out.println("------");
 		
+		int[][] players = new int[4][13];
+		for (int i=0; i<poker.length; i++) {
+			players[i%4][i/4] = poker[i];
+		}
+		
+		for (int[] player : players) {
+			for (int card : player) {
+				System.out.print(card + " ");
+			}
+			System.out.println();
+		}
 	}
 
 }
