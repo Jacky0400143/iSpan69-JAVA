@@ -1,0 +1,33 @@
+    SQL
+    作業系統
+    網路概論
+
+eclipse IDE
+
+
+Package Name
+>>網域名稱，倒過來寫
+>>www.iii.org.tw
+>>Host Name
+
+>>tw.org.iii.JWApp
+
+    編譯時期錯誤
+
+
+快捷鍵  Alt + /  快速複製上一段
+
+\n 跳脫字元
+
+/**
+*/
+產生JAVA DOC
+
+byte -128 ~ 127
+short -32768 ~32767  (2 16次方)
+
+[a-zA-Z$_][a-zA-Z0-9$_]*    *代表前面可以出現零或多個
+
+bradchao
+
+ASSCII Code
