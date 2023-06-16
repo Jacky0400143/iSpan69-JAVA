@@ -1,5 +1,9 @@
 package tw.org.iii.jwclasses;
 
 public class Bike {
-	double speed;
+	public double speed;
+	
+	void upSpeed() {
+		speed = speed++;
+	}
 }
