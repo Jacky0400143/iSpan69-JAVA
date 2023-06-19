@@ -16,5 +16,11 @@ public class JW28 {
 		}else {
 			System.out.println("XX");
 		}
+		System.out.println("------");
+		if (TWID.isRightId("")) {
+			System.out.println("OK");
+		}else {
+			System.out.println("XX");
+		}
 	}
 }
