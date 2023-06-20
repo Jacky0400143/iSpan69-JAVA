@@ -20,7 +20,11 @@ public class JW33 {
 		doJob(car2);
 		doJob(car3);
 		System.out.println("------");
-		if (car4.instanceof )
+		if (car4 instanceof Audi) {
+			System.out.println("OK");
+		}else {
+			System.out.println("XX");				
+		}
 		
 		
 	}
