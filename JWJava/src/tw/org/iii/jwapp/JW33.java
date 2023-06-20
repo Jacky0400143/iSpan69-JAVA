@@ -19,6 +19,8 @@ public class JW33 {
 		doJob(car1);
 		doJob(car2);
 		doJob(car3);
+		System.out.println("------");
+		if (car4.instanceof )
 		
 		
 	}
