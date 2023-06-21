@@ -2,6 +2,7 @@ package tw.org.iii.jwapp;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -9,6 +10,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
@@ -32,7 +34,8 @@ public class GuessNumber extends JFrame {
 		top.add(guess, BorderLayout.EAST);
 		top.add(input, BorderLayout.CENTER);
 		
-		add(log, BorderLayout.CENTER);
+		JScrollPane jsp = new JScrollPane(log);
+		add(jsp, BorderLayout.CENTER);
 		
 //		guess = new JButton("猜"); b1 = new JButton("B1"); b2 = new JButton("B2");
 //		input = new JTextField();
@@ -45,6 +48,9 @@ public class GuessNumber extends JFrame {
 		setSize(640, 480);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		input.setFont(new Font(null, Font.BOLD, 48));
+		log.setFont(new Font(null, Font.BOLD, 48));
 		
 		initGame();
 	}
